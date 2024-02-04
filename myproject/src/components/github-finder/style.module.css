@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 15px;
+
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 30vw;
+    flex-direction: column;
+}
+.header {
+  width: inherit;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header img{
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    gap: 20px;
+}

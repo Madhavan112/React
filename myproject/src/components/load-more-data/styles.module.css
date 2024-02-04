@@ -1,0 +1,28 @@
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 10px;
+}
+.item img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.item{
+    height: 350px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.load{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.load button{
+    width: 120px;
+    height: 30px;
+}

@@ -1,0 +1,55 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+  
+}
+.image{
+   width: 100%;
+   height: 100%;
+   border-radius: 7px;
+   object-fit: cover;
+}
+.leftIcon{
+    font-size: 30px;
+    position: absolute;
+    left: 2px;
+    color: white;
+}
+.rightIcon{
+    font-size: 30px;
+    position: absolute;
+    right: 2px;
+    color: white;
+
+}
+.circleIndicator{
+    display: flex;
+    position: absolute;
+    gap: 4px;
+    bottom: 8px;
+    
+}
+.circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: none;
+    /* background-color: gray; */
+}
+ .disappearimg{
+    display: none;
+ }
+ .appearbtn{
+    background-color: gray;
+ }

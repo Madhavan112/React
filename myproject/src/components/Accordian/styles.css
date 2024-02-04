@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper button{
+    padding: 10px 20px;
+    color: whitesmoke;
+    background-color: rgb(231, 175, 102);
+    border: none;
+    margin-bottom: 10px;
+}
+.item{
+    width: 500px;
+    background-color: burlywood;
+    padding: 10px 7px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    background-color: rgb(252, 185, 98);
+
+}
+.response{
+    color: white;
+    background-color: burlywood;
+    padding: 10px 0;
+
+}

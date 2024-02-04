@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 40px;
+  background-color: rgb(135, 238, 135);
+  font-size: clamp(10px, 4vw, 16px);
+}
+.line {
+  width: 100vw;
+  height: 10px;
+  background-color: blue;
+  margin-top: -8px;
+  position: relative;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+.progress {
+  background-color: red;
+  z-index: 10;
+  height: 10px;
+  position: absolute;
+}

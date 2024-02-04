@@ -1,0 +1,18 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  width: auto;
+  gap: 7px;
+}
+.design{
+    background-color: rgb(102, 255, 0);
+    padding: 0 25px ;
+    color: white;
+}
